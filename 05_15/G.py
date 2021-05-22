@@ -20,7 +20,7 @@ def merge(odd, even):
 if __name__ == '__main__':
     t = int(input())
     for i in range(0, t):
-        s = input()
+        n = int(input())
         odd = []
         even = []
         for j in range(len(s)):
